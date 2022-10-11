@@ -1,0 +1,22 @@
+{
+  "name": "landing_platzy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardo1470/landing_platzy.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Ricardo Camayo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricardo1470/landing_platzy/issues"
+  },
+  "homepage": "https://github.com/ricardo1470/landing_platzy#readme"
+}
