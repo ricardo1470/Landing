@@ -28,11 +28,5 @@ jobs:
         cache: 'npm'
     # project initialization into the src/app.js file
     - run: npm init -y
-    - run: npm install express
-    - run: npm install --save-dev jest
-    - run: npm install --save-dev supertest
-    - run: npm install --save-dev nodemon
 
-    - run: npm test
     - run: npm start
-
