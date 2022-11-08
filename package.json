@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --verbose=true --collectCoverage=true",
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,18 @@
   "bugs": {
     "url": "https://github.com/ricardo1470/landing_platzy/issues"
   },
-  "homepage": "https://github.com/ricardo1470/landing_platzy#readme"
+  "homepage": "https://github.com/ricardo1470/landing_platzy#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "jest": "^29.3.0",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.1"
+  }
 }
