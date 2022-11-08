@@ -7,7 +7,7 @@
     "test": "NODE_OPTIONS=--experimental-vm-modules jest --verbose=true --collectCoverage=true",
     "dev": "nodemon src/app.js",
     "start": "node src/app.js",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
